@@ -1,0 +1,11 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   background: gray;
+}
+
+.title {
+   color: yellow;
+}

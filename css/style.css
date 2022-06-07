@@ -1,0 +1,10 @@
+body {
+   background: gray;
+   
+   width: 100vh;
+}
+
+.title {
+   color: yellow;
+   text-align: center;
+}
