@@ -1,12 +1,178 @@
-* {
-   box-sizing: border-box;
+html {
+   scroll-behavior: smooth;
 }
 
 body {
-   background: gray;
+   font-family: 'Montserrat', sans-serif;
+   color: #303030;
+}
+
+.container {
+   max-width: 1170px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.header {
+   background: #0000f5;
+   color: #fff;
+}
+
+.header__inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 60px;
+}
+
+.nav-list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav-list-link {
+   color: #fff;
+   padding: 10px;
+   border: 1px solid #0000F5;
+   transition: all 0.3s;
+}
+
+.nav-list-link + .nav-list-link {
+   margin-left: 30px;
+}
+
+.nav-list-link:hover {
+   border: 1px solid #fff;
+   border-radius: 20px;
+}
+
+.profile__inner {
+   display: flex;
+   margin-top: 100px;
+}
+
+.profile__inner-left {
+   max-width: 200px;
+   margin-right: 30px;
+}
+
+.profile__inner-right {
+   margin: auto 0;
+}
+
+.profile__inner-name {
+   color: #0000F5;
+   font-size: 32px;
+   font-weight: bold;
+}
+
+.profile__line {
+   width: 140px;
+   height: 2px;
+   background-color: #0000F5;
+   background: #0000f5;
+   margin: 20px 0;
+}
+
+.profile__inner-text {
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 24px;
+}
+.profile__inner-text + .profile__inner-text {
+   margin-top: 10px;
 }
 
 .title {
-   color: yellow;
+   margin: 50px 0 20px;
+   color: #0000F5;
 }
 
+.about__inner-text + .about__inner-text {
+   margin-top: 10px;
+}
+
+.about__inner-text {
+   max-width: 700px;
+}
+
+.contacts__inner-item {
+   display: flex;
+   align-items: center;
+}
+
+.contacts__inner-item span {
+   margin-left: 10px;
+}
+
+.contacts__inner-item + .contacts__inner-item {
+   margin-top: 10px;
+}
+
+.skills__inner-items {
+   margin-top: 20px;
+   display: block;
+   /* мб сюда надо будет что то добавить */
+}
+
+.skills__inner-item {
+   display: flex;
+   align-items: center;
+}
+
+.skills-icon {
+   margin-right: 10px;
+}
+
+.skill__blocks {
+   display: flex;
+}
+
+.skill__progress {
+   width: 12px;
+   height: 12px;
+   margin: 2px 1px;
+   background: rgb(165, 165, 165);
+}
+
+.skill__progress.active {
+   background-color: #0000F5;
+}
+
+.skills__inner-item + .skills__inner-item {
+   margin-top: 15px;
+}
+
+.education__inner-text {
+   max-width: 600px;
+}
+
+.education__inner-subtext,
+.courses__inner-subtext {
+   color: #b6b6b6;
+   font-size: 14px;
+}
+
+.english {
+   margin-bottom: 100px;
+}
+
+.footer {
+   background: #0000F5;
+}
+
+.footer__inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 80px;
+}
+
+.footer__inner-link {
+   color: #fff;
+}
+
+.footet__inner-img {
+   height: 40px;
+}

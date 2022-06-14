@@ -5,15 +5,283 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>CV#2. HTML, CSS and Git Basics</title>
+   <title>CV</title>
+
+   <link rel="icon" href="assets/img/favicon.ico">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/zero.css">
    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-   <div class="title">
-      <h1>Hello RSSchool!</h1>
-   </div>
+   <header class="header">
+      <div class="container">
+         <div class="header__inner">
+            <div class="header__inner-left">
+               <div class="header__inner-text">
+                  <p>CV Maksim Opriatin</p>
+               </div>
+            </div>
+            <div class="header__inner-right">
+               <nav class="header__inner-nav">
+                  <ul class="nav-list">
+                     <li class="nav-list-item">
+                        <a class="nav-list-link" href="#about">Обо мне</a>
+                     </li>
+                     <li class="nav-list-item">
+                        <a class="nav-list-link" href="#contacts">Контакты</a>
+                     </li>
+                     <li class="nav-list-item">
+                        <a class="nav-list-link" href="#skills">Навыки</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </header>
+   <section class="profile">
+      <div class="container">
+         <div class="profile__inner">
+            <div class="profile__inner-left">
+               <img class="photo" src="assets/img/me.jpg" alt="Me">
+            </div>
+            <div class="profile__inner-right">
+               <h1 class="profile__inner-name">Максим Опрятин</h1>
+               <div class="profile__line"></div>
+               <div class="profile__inner-items">
+                  <p class="profile__inner-text">29 лет</p>
+                  <p class="profile__inner-text">Junior Frontend Developer</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="about">
+      <div class="container">
+         <div id="about" class="about__inner">
+            <h2 class="title">
+               Обо мне
+            </h2>
+            <div class="about__inner-texts">
+               <p class="about__inner-text">
+                  Я тот человек, который к 30 годам решил, что пора что-менять в своей профессии. За плечами 7-ми летний
+                  опыт работы в продажах, начиная от менеджера по продажам, заканчивая руководителем отдела продаж.
+               </p>
+               <p class="about__inner-text">
+                  Но к 30
+                  годам потянуло в IT, так как хочется путешествовать, работать из любой точки мира и заниматься тем,
+                  что
+                  нравится. Выбор профессии пал на Frontend разработчика, так как люблю быстро получать результат, а
+                  Frontend как раз позволяет сразу видеть результат своей работы.
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="contacts">
+      <div class="container">
+         <div id="contacts" class="contacts__inner">
+            <h2 class="title">
+               Контакты
+            </h2>
+            <div class="contacts__inner-items">
+               <div class="contacts__inner-item">
+                  <img class="phone__icon" src="assets/svg/phone.svg" alt="phone">
+                  <span class="number">+7 (906) 266-24-21</span>
+               </div>
+               <div class="contacts__inner-item">
+                  <img class="mail__icon" src="assets/svg/mail.svg" alt="email">
+                  <span class="email">maksim.opryatin@yandex.ru</span>
+               </div>
+               <div class="contacts__inner-item">
+                  <img class="github__icon" src="assets/svg/github.svg" alt="github">
+                  <span class="username">Berlin69</span>
+               </div>
+               <div class="contacts__inner-item">
+                  <img class="discord__icon" src="assets/svg/discord.svg" alt="discord">
+                  <span class="">berlin#1743</span>
+               </div>
+               <div class="contacts__inner-item">
+                  <img class="telegram__icon" src="assets/svg/telegram.svg" alt="telegram">
+                  <a href="t.me/bettercallmaksim"><span class="">@bettercallmaksim</span></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="skills">
+      <div class="container">
+         <div id="skills" class="skills__inner">
+            <h2 class="title">Навыки</h2>
+            <div class="skills__inner-items">
+               <div class="skills__inner-item">
+                  <img class="skills-icon" src="assets/svg/html5.svg" alt="HTML">
+                  <div class="skill__blocks">
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                  </div>
+               </div>
+               <div class="skills__inner-item">
+                  <img class="skills-icon" src="assets/svg/CSS3.svg" alt="CSS">
+                  <div class="skill__blocks">
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                  </div>
+               </div>
+               <div class="skills__inner-item">
+                  <img class="skills-icon" src="assets/svg/JS.svg" alt="JS">
+                  <div class="skill__blocks">
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                  </div>
+               </div>
+               <div class="skills__inner-item">
+                  <img class="skills-icon" src="assets/svg/git.svg" alt="Git">
+                  <div class="skill__blocks">
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                  </div>
+               </div>
+               <div class="skills__inner-item">
+                  <img class="skills-icon" src="assets/svg/figma.svg" alt="Figma">
+                  <div class="skill__blocks">
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                  </div>
+               </div>
+               <div class="skills__inner-item">
+                  <img class="skills-icon" src="assets/svg/photoshop.svg" alt="Photoshop">
+                  <div class="skill__blocks">
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress active"></div>
+                     <div class="skill__progress"></div>
+                     <div class="skill__progress"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="code">
+      <div class="container">
+         <div class="code__inner">
+            <h2 class="title">Пример кода</h2>
+            <p class="code__inner-text">
+               Пример моего кода - это мое CV. Чтобы изучить - нажимай F12 =)
+            </p>
+         </div>
+      </div>
+   </section>
+   <section class="experience">
+      <div class="container">
+         <div class="experience__inner">
+            <h2 class="title">Опыт работы</h2>
+            <p class="experience__inner-text">
+               На данный момент у меня нету опыта программирования, но я стараюсь оперативно исправить этот момент.
+            </p>
+         </div>
+      </div>
+   </section>
+   <section class="education">
+      <div class="container">
+         <div class="education__inner">
+            <h2 class="title">Образование</h2>
+            <p class="education__inner-text">
+               Петербургский Государственный Универстит Путей Сообщения
+            </p>
+            <p class="education__inner-subtext">
+               2011 - 2016 г.
+            </p>
+         </div>
+      </div>
+   </section>
+   <section class="courses">
+      <div class="container">
+         <div class="courses__inner">
+            <h2 class="title">Курсы</h2>
+            <p class="courses__inner-text">
+               from 0 to 1
+            </p>
+            <p class="courses__inner-subtext">
+               Вадим Прокопчук
+            </p>
+         </div>
+      </div>
+   </section>
+   <section class="english">
+      <div class="container">
+         <div class="english__inner">
+            <h2 class="title">Английский</h2>
+            <p class="english__inner-text">
+               B1 - Intermediate
+            </p>
+         </div>
+      </div>
+   </section>
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__inner">
+            <div class="footer__inner-copy">
+               <a class="footer__inner-link" href="https://github.com/Berlin69">
+                  &#169; Maksim Opryatin 2022
+               </a>
+            </div>
+            <a class="footer__inner-link" href="https://rs.school/js/">
+               <img class="footet__inner-img" src="assets/svg/rs_school_js.svg" alt="RS School JS">
+            </a>
+         </div>
+      </div>
+   </footer>
 </body>
 
 </html>
-
